@@ -62,7 +62,7 @@
 |     14 300             |                        |
 
 
-# Четвёртое задание "Нечетная прогрессия"
+## Четвёртое задание "Нечетная прогрессия"
 
 Было записано n подряд идущих нечетных чисел. Сумма всех выписанных чисел равнялась s. По заданным значениям n и s определите выписанные числа.
 
@@ -84,7 +84,7 @@
 
 
 
-# Пятое задание "Количество четных элементов последовательности"
+## Пятое задание "Количество четных элементов последовательности"
 
 Робот «Jarvise» принимает на вход целые числа и записывает их в последовательность. «Jarvise» заканчивает работу когда получает на вход число 0 (0 — признак окончания ввода, не входит в последовательность). Определите количество четных положительных чисел после завершения работы «Jarvise».
 
@@ -98,18 +98,20 @@
 
 |    Входные данные      |     Выходные данные    |
 |:----------------------:|:----------------------:|
-|           1            |                        |
+|           1            |            1           |
 |           2            |                        |
-|           -4           |            1           |
+|           -4           |                        |
 |           0            |                        |
 |           5            |                        |
 
 |    Входные данные      |     Выходные данные    |
 |:----------------------:|:----------------------:|
-|           0            |                        |
-|           2            |            0           |
+|           0            |            1           |
+|           2            |                        |
 |           4            |                        |
 
 
+## Шестое задание "Необычные часы"
 
-![Альтернативный текст][https://statement.bacs.cs.istu.ru/statement/get/CjZiYWNzL3Byb2JsZW0vc2Nob29sXzdfNl81X2JjL3N0YXRlbWVudC92ZXJzaW9ucy9DL2h0bWwSBgoEOhAA_w/bacs/joNyJkpzGs15Djfsqo0zg7S1k_T3JZ_okcBDmKO3JM_LOoV9M753s0InveCQVhqm8fvC3603R9duT_4Reg48eMYTvKqRHcCiQKQYuRetaPSYdcsvhtpJArZJqZS2zx7ngwhsrWAgrhi2wPK3ChqaALjDhXw92SfYCJW7-pPrAwKVj1PfDnHwcYQ48vyhctHgr6CtEkqNwN01EK7gGHJ1xkSEuI6zu5ksT229H1VUSpKBJWGDTojMchbXfuFxL-3r_C3LdD-PeuN2onk8S5R0cxy-ELiDoR1WqU7tdl3PuGokDjtrv9b8ZxWt2ZcQG024naLEZpExPDmc-o4GwMC7kg/clockexample.png]
+Инна любит необычные вещи. Недавно она увидела в магазине часы, на которых вместо циферблата была изображена координатная плоскость с отмеченными на ней точками.
+![alt text for image]([../images/Introduction.png](https://statement.bacs.cs.istu.ru/statement/get/CjZiYWNzL3Byb2JsZW0vc2Nob29sXzdfNl81X2JjL3N0YXRlbWVudC92ZXJzaW9ucy9DL2h0bWwSBgoEOhAA_w/bacs/joNyJkpzGs15Djfsqo0zg7S1k_T3JZ_okcBDmKO3JM_LOoV9M753s0InveCQVhqm8fvC3603R9duT_4Reg48eMYTvKqRHcCiQKQYuRetaPSYdcsvhtpJArZJqZS2zx7ngwhsrWAgrhi2wPK3ChqaALjDhXw92SfYCJW7-pPrAwKVj1PfDnHwcYQ48vyhctHgr6CtEkqNwN01EK7gGHJ1xkSEuI6zu5ksT229H1VUSpKBJWGDTojMchbXfuFxL-3r_C3LdD-PeuN2onk8S5R0cxy-ELiDoR1WqU7tdl3PuGokDjtrv9b8ZxWt2ZcQG024naLEZpExPDmc-o4GwMC7kg/clockexample.png))

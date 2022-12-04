@@ -5,8 +5,8 @@
 
          Input          |          Output
 ------------------------|-----------------------
-This   is an example.   | sihT   si na elpmaxe.
-Prim333primяяrt         | mirP333mirpяяtr
+This   is an example.     sihT   si na elpmaxe.
+Prim333primяяrt           mirP333mirpяяtr
 ------------------------|-----------------------
 
 

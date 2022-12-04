@@ -113,4 +113,47 @@
 
 ## Шестое задание "Необычные часы"
 
-Инна любит необычные вещи. [Недавно она увидела в магазине часы, на которых вместо циферблата была изображена координатная плоскость с отмеченными на ней точками.]  (https://statement.bacs.cs.istu.ru/statement/get/CjZiYWNzL3Byb2JsZW0vc2Nob29sXzdfNl81X2JjL3N0YXRlbWVudC92ZXJzaW9ucy9DL2h0bWwSBgoEOhAA_w/bacs/joNyJkpzGs15Djfsqo0zg7S1k_T3JZ_okcBDmKO3JM_LOoV9M753s0InveCQVhqm8fvC3603R9duT_4Reg48eMYTvKqRHcCiQKQYuRetaPSYdcsvhtpJArZJqZS2zx7ngwhsrWAgrhi2wPK3ChqaALjDhXw92SfYCJW7-pPrAwKVj1PfDnHwcYQ48vyhctHgr6CtEkqNwN01EK7gGHJ1xkSEuI6zu5ksT229H1VUSpKBJWGDTojMchbXfuFxL-3r_C3LdD-PeuN2onk8S5R0cxy-ELiDoR1WqU7tdl3PuGokDjtrv9b8ZxWt2ZcQG024naLEZpExPDmc-o4GwMC7kg/clockexample.png))
+Инна любит необычные вещи. Недавно она увидела в магазине часы, на которых вместо циферблата была изображена координатная плоскость с отмеченными на ней точками. Чтобы определить время, нужно посчитать количество точек в каждой из четвертей. Предположим, что получились следующие результаты:
+
+2  точки в I (правой верхней) четверти,
+0  точек во II (левой верхней) четверти,
+3  точки в III (левой нижней) четверти,
+4  точки в IV (правой нижней) четверти.
+
+Это значит, что часы показывают 
+02 часа 34 минуты. Помогите Инне определить текущее время по заданным координатам точек или сообщите о том, что часы неисправны. Часы неисправны только в том случае, если показываемое ими время не входит в промежуток от 00 часов 00 минут до 23 часов 59 минут.
+
+**Входные данные**
+В первой строке задается одно целое число n (0 ≤ n ≤ 50) — количество точек. Далее следует n строк. Каждая строка содержит два целых числа Xi, Yi (−100 ≤ Xi, Yi ≤ 100) — координаты очередной точки. Гарантируется, что точки не лежат на координатных осях. Гарантируется, что координаты всех точек различны.
+
+**Выходные данные**
+Если часы неисправны, выведите Broken. Иначе выведите два целых числа: количество часов и количество минут. Выводите часы и минуты в формате ЧЧ ММ. Всегда выводите по две цифры, даже если старшая из них равна 0.
+
+**Примеры**
+
+|    Входные данные      |     Выходные данные    |
+|:----------------------:|:----------------------:|
+|           9            |         02 34          |
+|           1 1          |                        |
+|           2 2          |                        |
+|           -3 -1        |                        |
+|           -2 -2        |                        |
+|           -1 -3        |                        |
+|           1 -1         |                        |
+|           1 -2         |                        |
+|           2 -1         |                        |
+|           2 -2         |                        |
+|    Входные данные      |     Выходные данные    |
+|:----------------------:|:----------------------:|
+|           6            |        Broken          |
+|           -1 1         |                        |
+|           -1 2         |                        |
+|           -1 -3        |                        |
+|           1 1          |                        |
+|           -1 -1        |                        |
+|           1 -1         |                        |
+
+**Примечание**
+Первый пример представлен на картинке. 2 точки в I четверти изображены фиолетовым цветом, 3 точки в III четверти — зеленым, 4 точки в IV четверти — красным.
+
+Картинка: https://statement.bacs.cs.istu.ru/statement/get/CjZiYWNzL3Byb2JsZW0vc2Nob29sXzdfNl81X2JjL3N0YXRlbWVudC92ZXJzaW9ucy9DL2h0bWwSBgoEOhAA_w/bacs/joNyJkpzGs15Djfsqo0zg7S1k_T3JZ_okcBDmKO3JM_LOoV9M753s0InveCQVhqm8fvC3603R9duT_4Reg48eMYTvKqRHcCiQKQYuRetaPSYdcsvhtpJArZJqZS2zx7ngwhsrWAgrhi2wPK3ChqaALjDhXw92SfYCJW7-pPrAwKVj1PfDnHwcYQ48vyhctHgr6CtEkqNwN01EK7gGHJ1xkSEuI6zu5ksT229H1VUSpKBJWGDTojMchbXfuFxL-3r_C3LdD-PeuN2onk8S5R0cxy-ELiDoR1WqU7tdl3PuGokDjtrv9b8ZxWt2ZcQG024naLEZpExPDmc-o4GwMC7kg/clockexample.png

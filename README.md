@@ -349,14 +349,10 @@ https://statement.bacs.cs.istu.ru/statement/text_get/cGFja2FnZTogJ2JhY3MvcHJvYmx
 
 **Пример входных данных**
    
-2 2 3
-   
-1 0
-   
-1 1
-   
-0 0 1
-   
+2 2 3  
+1 0  
+1 1  
+0 0 1 
 1 1 1
    
 

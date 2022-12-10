@@ -312,16 +312,24 @@ https://statement.bacs.cs.istu.ru/statement/text_get/cGFja2FnZTogJ2JhY3MvcHJvYmx
 **Пример входных данных**
    
 4
+   
 2 4
+   
 5 15
+   
 20 30
+   
 5 10
+   
 
 **Пример выходных данных**
    
 1
+   
 1
+   
 4
+   
 2
 
 
@@ -342,10 +350,15 @@ https://statement.bacs.cs.istu.ru/statement/text_get/cGFja2FnZTogJ2JhY3MvcHJvYmx
 **Пример входных данных**
    
 2 2 3
+   
 1 0
+   
 1 1
+   
 0 0 1
+   
 1 1 1
+   
 
 **Выходные данные**
    
@@ -354,3 +367,4 @@ https://statement.bacs.cs.istu.ru/statement/text_get/cGFja2FnZTogJ2JhY3MvcHJvYmx
 **Пример выходных данных**
    
 4 7
+   

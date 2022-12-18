@@ -384,17 +384,24 @@ https://statement.bacs.cs.istu.ru/statement/text_get/cGFja2FnZTogJ2JhY3MvcHJvYmx
 Необходимо вывести на экран "отредактированную строку" в промежутке [n, m], удалив необходимые нам символы.
 
 **Simple Input**
+
 3 35
+
 helloworld!!!mynameisearth!andilikeyou
+
 !lrmi
 
 **Simple Output**
+
 helowordynaeseathandkeyou
 
 
 **Simple Input**
+
 0 43
+
 i'dreallyliketoseeyouhereandicocongratulationstoyou
+
 lar'es
 
 

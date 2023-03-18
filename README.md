@@ -650,6 +650,7 @@ helloworld!!!mynameisearth!andilikeyou
 helowordynaeseathandkeyou
 
 
+
 **Simple Input**
 
 0 43
@@ -658,7 +659,7 @@ i'dreallyliketoseeyouhereandicocongratulationstoyou
 
 **Simple Output**
 
-lar'es
+nstoyou
 
 
 ## #5 "Считывание данных из файла"

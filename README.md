@@ -763,7 +763,7 @@ nstoyou
 Создайте два вектора `vec1` и `vec2`, внесите в них следующие данные: в vec1: "Hello world, my name is /ваше имя/" и в vec2: "Hello world, my name is /ваше имя/ and i love C++". Убедитесь что `vec1` и `vec2` равны или не равны, используя следующую конструкцию:
 
 ```c++
-if ( vec1.size() == vec2.size() || equal( vec1.begin(), vec1.end(), vec2.begin() );
+if ( vec1.size() == vec2.size() || equal( vec1.begin(), vec1.end(), vec2.begin()));
 ```
 
 ## reverse()
